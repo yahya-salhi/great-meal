@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Recipe</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-list">
+        <div class="meal-search">
+          <h2 class="title">The Great Food From Entire World</h2>
+          <blockquote>
+            Cooking is a little bit like the cinema. It's the emotion that counts
+            <br />
+            <cite>-Yahya Salhi</cite>
+          </blockquote>
+          <div class="meal-search-box">
+           <select class="search-control" name="country" id="search-input">
+            <option value="">Select your country</option>
+            <option value="Tunisian">Tunisian</option>
+            <option value="British">British</option>
+            <option value="American">American</option>
+            <option value="Canadian">Canadian</option>
+            <option value="Jamaican">Jamaican</option>
+            <option value="Chinese">Chinese</option>
+            <Option value="Dutch">Dutch</Option>
+            <option value="Egyptian">Egyptian</option>
+            <option value="Greek">Greek</option>
+            <option value="Indian">Indian</option>
+            <option value="Italian">Italian</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Mexican">Mexican</option>
+            <option value="Russian">Russian</option>
+            <option value="Turkish">Turkish</option>
+            <option value="Moroccan">Moroccan</option>
+           </select>
+             
+            <!-- <input
+              type="text"
+              class="search-control"
+              placeholder="Enter your country "
+              id="search-input"
+            /> -->
+            <button type="submit" class="search-btn btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <div class="meal-result">
+          <h2 class="title">your search result :</h2>
+          <div id="meal">
+            <!-- meal-item -->
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="food.jpg" alt="food" />
+              </div>
+              <div class="meal-name">
+                <h3>potato chips</h3>
+                <a href="#" class="recipe-btn">Get recipe</a>
+              </div>
+            </div> -->
+            <!-- end of meal item -->
+          </div>
+        </div>
+        <div class="meal-details">
+          <!-- recipe-close-btn -->
+          <button
+            type="button"
+            class="recipe-close-btn"
+            id="recipe-close-btn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <!-- meal-content -->
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals Name here</h2>
+            <p class="recipe-category">Gategory</p>
+            <div class="recipe-instruction">
+              <h3>instruction</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Debitis rem quibusdam est sunt eaque perspiciatis labore aperiam
+                odio facere libero. Neque culpa, mollitia unde harum fugit,
+                soluta est sunt quo repellendus cupiditate ducimus ut minus,
+                doloribus expedita fugiat optio animi dolor aperiam
+                exercitationem dolorem. Odit debitis explicabo dolorum quos
+                praesentium!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt sunt reiciendis voluptatibus deleniti at ea et
+                asperiores ratione autem perspiciatis.
+              </p>
+            </div>
+            <div class="recipe-meal-img">
+              <img src="food.jpg" alt="">
+            </div>
+            <div class="recipe-link">
+              <a href="#" target="_blank">watch video</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
